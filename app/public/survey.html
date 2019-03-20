@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Friend Finder</title>
+        <head>
+        <meta charset="UTF-8" />
+        <title>Survey|Friend Newtork</title>
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        />
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+        />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+                </head>
+  <body>	
+      <div class="container content">
+        <div class="jumbotron">
+    <h1>Friend Network
+    </h1>
+    <div>
+            <a href="survey.html">
+                <span class="glyphicon glyphicon-question-sign"></span>  </a>
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-    />
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+                
+                <a href="survey.html">Survey</a>
+                <span>|</span>
+                <a href="home.html">Home</a>
+                <span>|</span>
+                <a href="howitworks.html">How it Works</a>
+            </div>
+            </div><div class="card">
+                    <div class="card-header">
+               
+                <h2><strong>Survey</strong>
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
-    />
-
-    <!-- Chosen -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-  </head>
-  <body>
+                </h2> 
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>    Read the quotes, and give an honest score for each question. Each question is strategically  picked to produce an emotional response to result in the highest compatibility. 
+                        <br>
+                        Select 1 if you strongly agree.
+                        
+                        <br>
+                        Select 2 if you strongly disagree.</p>
+                <footer class="blockquote-footer"> <cite title="Source Title">Your vibe is your tribe.</cite></footer>
+              </blockquote>
+            </div>
+          </div>     
+      
+              </div>
+            </div>
+        </div>
     <div class="container">
-      <h2>Survey Questions</h2>
-      <hr />
-
-      <h3><strong>About You</strong></h3>
+    
+    
+      
       <h4>Name (Required)</h4>
       <input type="text" id="name" class="form-control" required />
       <hr />
 
       <h3><strong>Question 1</strong></h3>
-      <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+      <h4>“Wonder is the beginning of wisdom.” </h4>
+         <small><h5> Socrates.</h5></small>
+         <br>  
       <select class="chosen-select" id="q1">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -46,9 +82,8 @@
 
       <h3><strong>Question 2</strong></h3>
       <h4>
-        Generally speaking, you rely more on your experience than your
-        imagination.
-      </h4>
+        "Those who dare to fail miserably can achieve greatly.”</h4>
+      <h5> John F. Kennedy</h5>
       <select class="chosen-select" id="q2">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -60,9 +95,9 @@
 
       <h3><strong>Question 3</strong></h3>
       <h4>
-        You find it easy to stay relaxed and focused even when there is some
-        pressure.
+   "I am not a fan of books."
       </h4>
+      <h5>Kanye West</h5>
       <select class="chosen-select" id="q3">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -73,7 +108,8 @@
       </select>
 
       <h3><strong>Question 4</strong></h3>
-      <h4>You rarely do something just out of sheer curiosity.</h4>
+      <h4>"My Father had a profound influence on me. He was a lunatic. </h4>
+      <h5>Spike Milligan</h5><br>
       <select class="chosen-select" id="q4">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -84,7 +120,8 @@
       </select>
 
       <h3><strong>Question 5</strong></h3>
-      <h4>People can rarely upset you.</h4>
+      <h4>"Success is having to worry about every damn thing in the world, except money."</h4>
+      <h5>Johnny Cash</h5>
       <select class="chosen-select" id="q5">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -96,8 +133,9 @@
 
       <h3><strong>Question 6</strong></h3>
       <h4>
-        It is often difficult for you to relate to other people’s feelings.
+      "I'm fighting for my life here"
       </h4>
+      <h5>R.Kelly</h5>
       <select class="chosen-select" id="q6">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -109,9 +147,9 @@
 
       <h3><strong>Question 7</strong></h3>
       <h4>
-        In a discussion, truth should be more important than people’s
-        sensitivities.
+        "Build the Wall."
       </h4>
+      <h5>Donald Trump</h5>
       <select class="chosen-select" id="q7">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -122,7 +160,8 @@
       </select>
 
       <h3><strong>Question 8</strong></h3>
-      <h4>You rarely get carried away by fantasies and ideas.</h4>
+      <h4>You get in life what you have the courage to ask for.</h4>
+          <h5> — Oprah Winfrey</h5>
       <select class="chosen-select" id="q8">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -134,9 +173,9 @@
 
       <h3><strong>Question 9</strong></h3>
       <h4>
-        You think that everyone’s views should be respected regardless of
-        whether they are supported by facts or not.
-      </h4>
+            “If this were a dictatorship it would be a heck of a lot easier... as long as I'm the dictator. Hehehe.” </h4>
+            <h5>― George W. Bush</h5>
+    
       <select class="chosen-select" id="q9">
         <option value=""></option>
         <option value="1">1 (Strongly Disagree)</option>
@@ -148,7 +187,9 @@
 
       <h3><strong>Question 10</strong></h3>
       <h4>
-        You feel more energetic after spending time with a group of people.
+       nobody :
+       <br>
+       me: *lets go out*
       </h4>
       <select class="chosen-select" id="q10">
         <option value=""></option>
@@ -170,14 +211,7 @@
       </button>
 
       <hr />
-      <footer class="footer">
-        <div class="container">
-          <p>
-            <a href="/api/friends">API Friends List</a> |
-            <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a>
-          </p>
-        </div>
-      </footer>
+      
     </div>
 
     <!-- Modal -->
@@ -278,5 +312,15 @@
         }
       });
     </script>
+    <footer>
+            <footer class="footer">
+                <div class ="container">
+                <a href="home.html">Home</a>
+                <span>|</span>
+                <a href="howitworks.html">How it Works</a><span>|</span>
+                <a href="https://github.com/Arianamelis">GitHub Repo</a>
+            </div>
+            </div>
+        </footer>
   </body>
 </html>
