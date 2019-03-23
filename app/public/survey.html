@@ -26,13 +26,13 @@
     <h1>Friend Network
     </h1>
     <div>
-            <a href="survey.html">
+            <a href="survey">
                 <span class="glyphicon glyphicon-question-sign"></span>  </a>
 
                 
                 <a href="survey.html">Survey</a>
                 <span>|</span>
-                <a href="home.html">Home</a>
+                <a href="home">Home</a>
                 <span>|</span>
                 <a href="howitworks.html">How it Works</a>
             </div>
@@ -297,9 +297,9 @@
               $("#q10").val()
             ]
           };
-
+            
           // AJAX post  data to friends API.
-          $.post("/api/friends", userData, function(data) {
+          $.post("https://www.localhost:8080/api/friends", userData, function(data) {
             // Grab the result from the AJAX post  best match name and photo are displayed.
             $("#match-name").text(data.name);
             $("#match-img").attr("src", data.photo);
@@ -315,9 +315,9 @@
     <footer>
             <footer class="footer">
                 <div class ="container">
-                <a href="home.html">Home</a>
+                <a href="home">Home</a>
                 <span>|</span>
-                <a href="howitworks.html">How it Works</a><span>|</span>
+                <a href="howitworks">How it Works</a><span>|</span>
                 <a href="https://github.com/Arianamelis">GitHub Repo</a>
             </div>
             </div>

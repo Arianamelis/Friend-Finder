@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/Arianamelis/Friend-Finder#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "cors-anywhere": "^0.4.1",
+    "express": "^4.16.4",
+    "heroku": "^7.22.7"
   }
 }
