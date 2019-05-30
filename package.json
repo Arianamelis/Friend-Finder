@@ -1,26 +1,21 @@
 {
-  "name": "Friend-Finder",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "\"FriendFinder\" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Arianamelis/Friend-Finder.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Arianamelis/Friend-Finder/issues"
-  },
-  "homepage": "https://github.com/Arianamelis/Friend-Finder#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "cors-anywhere": "^0.4.1",
-    "express": "^4.16.4",
     "heroku": "^7.22.7"
+  },
+  "engines": {
+    "node": "5.3.0"
+  },
+  "homepage": "https://github.com/Arianamelis/Friend-Finder#readme"
   }
-}
+
